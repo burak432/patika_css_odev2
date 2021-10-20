@@ -1,0 +1,72 @@
+body {
+  text-align: center;
+}
+
+.konteyner {
+  width: 1278px;
+  margin: 4em auto;
+}
+
+.arama {
+  background-color: #eee;
+  padding: 1px;
+}
+
+.linkler {
+  display: flex;
+  flex-direction: row;
+  gap: 2px;
+  margin-block: 2px;
+}
+
+.arama > p {
+  margin: 0;
+}
+
+.linkler {
+  justify-content: space-between;
+  gap: 0px;
+}
+
+.sol {
+  padding: 12px;
+  background-color: #7ee5da;
+  display: flex;
+  flex-direction: column;
+  width: 35%;
+  font-size: 16px;
+}
+
+.orta {
+  background-color: #70ccc2;
+  display: flex;
+  flex-direction: column;
+  font-size: 13px;
+  justify-content: center;
+  width: 19.5%;
+}
+
+.sag {
+  background-color: #62b3aa;
+  display: flex;
+  flex-direction: column;
+  width: 43.3%;
+  font-size: 13px;
+  justify-content: center;
+  align-items: center;
+}
+
+.sag p {
+  margin: 0;
+}
+
+.sag .subscribe {
+}
+
+.sag a {
+  margin: 0 10px;
+}
+
+footer {
+  font-size: 13px;
+}
